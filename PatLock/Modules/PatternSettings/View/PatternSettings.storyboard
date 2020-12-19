@@ -8,7 +8,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Pattern SettingsVC-->
+        <!--Settings-->
         <scene sceneID="bSD-Rq-NRA">
             <objects>
                 <viewController storyboardIdentifier="PatternSettingsVC" id="DHk-ny-n9A" customClass="PatternSettingsVC" customModule="PatLock" customModuleProvider="target" sceneMemberID="viewController">
@@ -30,7 +30,7 @@
                             <constraint firstItem="0s3-AB-Yez" firstAttribute="leading" secondItem="DiF-hu-4or" secondAttribute="leading" id="u22-gi-Fqg"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="SpS-aX-XVf"/>
+                    <navigationItem key="navigationItem" title="Settings" id="SpS-aX-XVf"/>
                     <connections>
                         <outlet property="tableView" destination="0s3-AB-Yez" id="azO-P6-SM0"/>
                     </connections>

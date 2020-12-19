@@ -20,6 +20,9 @@
 		72DA882E258DF74E00EF3E3D /* PatternSettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72DA882D258DF74E00EF3E3D /* PatternSettingsVC.swift */; };
 		72DA8832258DF83700EF3E3D /* UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72DA8831258DF83700EF3E3D /* UITableView.swift */; };
 		72DA8836258DF92500EF3E3D /* PatternSettings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72DA8835258DF92500EF3E3D /* PatternSettings.storyboard */; };
+		72DA883B258DFA9300EF3E3D /* PatternSettingsTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72DA8839258DFA9300EF3E3D /* PatternSettingsTVC.swift */; };
+		72DA883C258DFA9300EF3E3D /* PatternSettingsTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 72DA883A258DFA9300EF3E3D /* PatternSettingsTVC.xib */; };
+		72DA8840258DFAE900EF3E3D /* Register.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72DA883F258DFAE900EF3E3D /* Register.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +41,9 @@
 		72DA882D258DF74E00EF3E3D /* PatternSettingsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatternSettingsVC.swift; sourceTree = "<group>"; };
 		72DA8831258DF83700EF3E3D /* UITableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableView.swift; sourceTree = "<group>"; };
 		72DA8835258DF92500EF3E3D /* PatternSettings.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PatternSettings.storyboard; sourceTree = "<group>"; };
+		72DA8839258DFA9300EF3E3D /* PatternSettingsTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatternSettingsTVC.swift; sourceTree = "<group>"; };
+		72DA883A258DFA9300EF3E3D /* PatternSettingsTVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PatternSettingsTVC.xib; sourceTree = "<group>"; };
+		72DA883F258DFAE900EF3E3D /* Register.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Register.swift; sourceTree = "<group>"; };
 		8895789E61896EDA4BBD96C4 /* Pods_PatLock.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PatLock.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D57019F08AC4D5151D0F4324 /* Pods-PatLock.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PatLock.debug.xcconfig"; path = "Target Support Files/Pods-PatLock/Pods-PatLock.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -104,6 +110,7 @@
 				72DA8818258DF21700EF3E3D /* BioAuthenticationHandler.swift */,
 				72DA881F258DF25300EF3E3D /* Strings.swift */,
 				72DA8822258DF2B500EF3E3D /* GestureLockSetup.swift */,
+				72DA883F258DFAE900EF3E3D /* Register.swift */,
 			);
 			path = Util;
 			sourceTree = "<group>";
@@ -127,6 +134,7 @@
 		72DA8827258DF73100EF3E3D /* View */ = {
 			isa = PBXGroup;
 			children = (
+				72DA8838258DFA7000EF3E3D /* Cells */,
 				72DA882D258DF74E00EF3E3D /* PatternSettingsVC.swift */,
 				72DA8835258DF92500EF3E3D /* PatternSettings.storyboard */,
 			);
@@ -139,6 +147,15 @@
 				72DA8831258DF83700EF3E3D /* UITableView.swift */,
 			);
 			path = Extension;
+			sourceTree = "<group>";
+		};
+		72DA8838258DFA7000EF3E3D /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				72DA8839258DFA9300EF3E3D /* PatternSettingsTVC.swift */,
+				72DA883A258DFA9300EF3E3D /* PatternSettingsTVC.xib */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 		C3B41167C6B4A2AA151B4474 /* Frameworks */ = {
@@ -211,6 +228,7 @@
 				72DA8836258DF92500EF3E3D /* PatternSettings.storyboard in Resources */,
 				72DA880B258DF06700EF3E3D /* LaunchScreen.storyboard in Resources */,
 				72DA8808258DF06700EF3E3D /* Assets.xcassets in Resources */,
+				72DA883C258DFA9300EF3E3D /* PatternSettingsTVC.xib in Resources */,
 				72DA8806258DF06400EF3E3D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -267,6 +285,8 @@
 				72DA8823258DF2B500EF3E3D /* GestureLockSetup.swift in Sources */,
 				72DA882E258DF74E00EF3E3D /* PatternSettingsVC.swift in Sources */,
 				72DA8803258DF06400EF3E3D /* ViewController.swift in Sources */,
+				72DA883B258DFA9300EF3E3D /* PatternSettingsTVC.swift in Sources */,
+				72DA8840258DFAE900EF3E3D /* Register.swift in Sources */,
 				72DA8819258DF21700EF3E3D /* BioAuthenticationHandler.swift in Sources */,
 				72DA8820258DF25300EF3E3D /* Strings.swift in Sources */,
 				72DA8832258DF83700EF3E3D /* UITableView.swift in Sources */,

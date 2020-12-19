@@ -30,6 +30,7 @@
 		72DA8859258E00D300EF3E3D /* TableBasedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72DA8858258E00D300EF3E3D /* TableBasedViewController.swift */; };
 		72DA885D258E02D100EF3E3D /* PatternSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72DA885C258E02D100EF3E3D /* PatternSettings.swift */; };
 		72DA8860258E033000EF3E3D /* Typealias.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72DA885F258E033000EF3E3D /* Typealias.swift */; };
+		72DA8865258E097E00EF3E3D /* PatternSettingsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72DA8864258E097E00EF3E3D /* PatternSettingsPresenter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +59,7 @@
 		72DA8858258E00D300EF3E3D /* TableBasedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableBasedViewController.swift; sourceTree = "<group>"; };
 		72DA885C258E02D100EF3E3D /* PatternSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatternSettings.swift; sourceTree = "<group>"; };
 		72DA885F258E033000EF3E3D /* Typealias.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Typealias.swift; sourceTree = "<group>"; };
+		72DA8864258E097E00EF3E3D /* PatternSettingsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatternSettingsPresenter.swift; sourceTree = "<group>"; };
 		8895789E61896EDA4BBD96C4 /* Pods_PatLock.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PatLock.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D57019F08AC4D5151D0F4324 /* Pods-PatLock.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PatLock.debug.xcconfig"; path = "Target Support Files/Pods-PatLock/Pods-PatLock.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -143,6 +145,7 @@
 			children = (
 				72DA885B258E02BA00EF3E3D /* Model */,
 				72DA8827258DF73100EF3E3D /* View */,
+				72DA8863258E095400EF3E3D /* Presenter */,
 			);
 			path = PatternSettings;
 			sourceTree = "<group>";
@@ -209,6 +212,14 @@
 				72DA885C258E02D100EF3E3D /* PatternSettings.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		72DA8863258E095400EF3E3D /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				72DA8864258E097E00EF3E3D /* PatternSettingsPresenter.swift */,
+			);
+			path = Presenter;
 			sourceTree = "<group>";
 		};
 		C3B41167C6B4A2AA151B4474 /* Frameworks */ = {
@@ -349,6 +360,7 @@
 				72DA8832258DF83700EF3E3D /* UITableView.swift in Sources */,
 				72DA87FF258DF06400EF3E3D /* AppDelegate.swift in Sources */,
 				72DA8860258E033000EF3E3D /* Typealias.swift in Sources */,
+				72DA8865258E097E00EF3E3D /* PatternSettingsPresenter.swift in Sources */,
 				72DA8801258DF06400EF3E3D /* SceneDelegate.swift in Sources */,
 				72DA884C258DFC7200EF3E3D /* StoryboardId.swift in Sources */,
 				72DA885D258E02D100EF3E3D /* PatternSettings.swift in Sources */,
@@ -502,6 +514,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KRGCDU34JU;
 				INFOPLIST_FILE = PatLock/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -522,6 +535,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KRGCDU34JU;
 				INFOPLIST_FILE = PatLock/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

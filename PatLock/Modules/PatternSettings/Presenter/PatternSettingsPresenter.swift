@@ -5,9 +5,11 @@
 //  Created by Sahand Raeisi on 12/19/20.
 //
 
-import Foundation
+import UIKit
 
 protocol PatternSettingsView: AnyObject {
+    func goToSet()
+    func goToReset()
     func setTableView(with array: [PatternSettings])
 }
 
@@ -35,8 +37,14 @@ extension PatternSettingsPresenter {
         DispatchQueue.global(qos: .background).async(execute: dwi)
     }
         
-    fileprivate func setItems() -> [PatternSettings] {
-        return [PatternSettings]()
+    private func setItems() -> [PatternSettings] {
+        let set = PatternSettings(icon: UIImage(named: "ferrari-logo")!, title: "Set") {
+            self.view?.goToSet()
+        }
+        let reset = PatternSettings(icon: UIImage(named: "ferrari-logo")!, title: "Reset") {
+            self.view?.goToReset()
+        }
+        return [set, reset]
     }
     
 }

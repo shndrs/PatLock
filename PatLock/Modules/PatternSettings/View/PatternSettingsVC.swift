@@ -9,7 +9,13 @@ import UIKit
 
 final class PatternSettingsVC: TableBasedViewController {
     
+    private lazy var presenter: PatternSettingsPresenter = {
+        return PatternSettingsPresenter(view: self)
+    }()
     
+    private lazy var items: [PatternSettings] = {
+        return [PatternSettings]()
+    }()
     
 }
 
@@ -17,15 +23,11 @@ final class PatternSettingsVC: TableBasedViewController {
 
 extension PatternSettingsVC {
     
-    fileprivate func searchSetup() {
-        let searchController = UISearchController(searchResultsController: nil)
-        navigationItem.searchController = searchController
-    }
-    
     override func tableSetup() {
+        super.tableSetup()
         tableView.delegate = self
         tableView.dataSource = self
-//        register(reuseIds: RIDs.categoryVC)
+        register(reuseIds: [PatternSettingsTVC.reuseIdentifier])
     }
     
 }
@@ -36,6 +38,26 @@ extension PatternSettingsVC {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        presenter.getItems()
+    }
+    
+}
+
+// MARK: - View Implementation
+
+extension PatternSettingsVC: PatternSettingsView {
+    
+    func goToSet() {
+        
+    }
+    
+    func goToReset() {
+        
+    }
+    
+    func setTableView(with array: [PatternSettings]) {
+        items = array
+        tableView.asyncReload()
     }
     
 }
@@ -45,11 +67,14 @@ extension PatternSettingsVC {
 extension PatternSettingsVC: UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 0
+        return items.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        return UITableViewCell()
+        let cell = tableView
+            .dequeueReusableCell(withIdentifier: PatternSettingsTVC.reuseIdentifier) as? PatternSettingsTVC
+        cell?.fill(cell: items[indexPath.row].title)
+        return cell ?? UITableViewCell()
     }
     
 }

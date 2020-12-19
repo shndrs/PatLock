@@ -17,6 +17,9 @@
 		72DA8819258DF21700EF3E3D /* BioAuthenticationHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72DA8818258DF21700EF3E3D /* BioAuthenticationHandler.swift */; };
 		72DA8820258DF25300EF3E3D /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72DA881F258DF25300EF3E3D /* Strings.swift */; };
 		72DA8823258DF2B500EF3E3D /* GestureLockSetup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72DA8822258DF2B500EF3E3D /* GestureLockSetup.swift */; };
+		72DA882E258DF74E00EF3E3D /* PatternSettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72DA882D258DF74E00EF3E3D /* PatternSettingsVC.swift */; };
+		72DA8832258DF83700EF3E3D /* UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72DA8831258DF83700EF3E3D /* UITableView.swift */; };
+		72DA8836258DF92500EF3E3D /* PatternSettings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72DA8835258DF92500EF3E3D /* PatternSettings.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +35,9 @@
 		72DA8818258DF21700EF3E3D /* BioAuthenticationHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BioAuthenticationHandler.swift; sourceTree = "<group>"; };
 		72DA881F258DF25300EF3E3D /* Strings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
 		72DA8822258DF2B500EF3E3D /* GestureLockSetup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureLockSetup.swift; sourceTree = "<group>"; };
+		72DA882D258DF74E00EF3E3D /* PatternSettingsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatternSettingsVC.swift; sourceTree = "<group>"; };
+		72DA8831258DF83700EF3E3D /* UITableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableView.swift; sourceTree = "<group>"; };
+		72DA8835258DF92500EF3E3D /* PatternSettings.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PatternSettings.storyboard; sourceTree = "<group>"; };
 		8895789E61896EDA4BBD96C4 /* Pods_PatLock.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PatLock.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D57019F08AC4D5151D0F4324 /* Pods-PatLock.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PatLock.debug.xcconfig"; path = "Target Support Files/Pods-PatLock/Pods-PatLock.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -78,6 +84,7 @@
 		72DA87FD258DF06400EF3E3D /* PatLock */ = {
 			isa = PBXGroup;
 			children = (
+				72DA8825258DF70800EF3E3D /* Modules */,
 				72DA8817258DF20900EF3E3D /* Util */,
 				72DA87FE258DF06400EF3E3D /* AppDelegate.swift */,
 				72DA8800258DF06400EF3E3D /* SceneDelegate.swift */,
@@ -93,11 +100,45 @@
 		72DA8817258DF20900EF3E3D /* Util */ = {
 			isa = PBXGroup;
 			children = (
+				72DA8830258DF81C00EF3E3D /* Extension */,
 				72DA8818258DF21700EF3E3D /* BioAuthenticationHandler.swift */,
 				72DA881F258DF25300EF3E3D /* Strings.swift */,
 				72DA8822258DF2B500EF3E3D /* GestureLockSetup.swift */,
 			);
 			path = Util;
+			sourceTree = "<group>";
+		};
+		72DA8825258DF70800EF3E3D /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				72DA8826258DF71B00EF3E3D /* PatternSettings */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		72DA8826258DF71B00EF3E3D /* PatternSettings */ = {
+			isa = PBXGroup;
+			children = (
+				72DA8827258DF73100EF3E3D /* View */,
+			);
+			path = PatternSettings;
+			sourceTree = "<group>";
+		};
+		72DA8827258DF73100EF3E3D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				72DA882D258DF74E00EF3E3D /* PatternSettingsVC.swift */,
+				72DA8835258DF92500EF3E3D /* PatternSettings.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		72DA8830258DF81C00EF3E3D /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				72DA8831258DF83700EF3E3D /* UITableView.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 		C3B41167C6B4A2AA151B4474 /* Frameworks */ = {
@@ -167,6 +208,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72DA8836258DF92500EF3E3D /* PatternSettings.storyboard in Resources */,
 				72DA880B258DF06700EF3E3D /* LaunchScreen.storyboard in Resources */,
 				72DA8808258DF06700EF3E3D /* Assets.xcassets in Resources */,
 				72DA8806258DF06400EF3E3D /* Main.storyboard in Resources */,
@@ -223,9 +265,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				72DA8823258DF2B500EF3E3D /* GestureLockSetup.swift in Sources */,
+				72DA882E258DF74E00EF3E3D /* PatternSettingsVC.swift in Sources */,
 				72DA8803258DF06400EF3E3D /* ViewController.swift in Sources */,
 				72DA8819258DF21700EF3E3D /* BioAuthenticationHandler.swift in Sources */,
 				72DA8820258DF25300EF3E3D /* Strings.swift in Sources */,
+				72DA8832258DF83700EF3E3D /* UITableView.swift in Sources */,
 				72DA87FF258DF06400EF3E3D /* AppDelegate.swift in Sources */,
 				72DA8801258DF06400EF3E3D /* SceneDelegate.swift in Sources */,
 			);

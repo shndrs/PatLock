@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0DF29F8CB7413FB2266B3299 /* Pods_PatLock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8895789E61896EDA4BBD96C4 /* Pods_PatLock.framework */; };
 		72DA87FF258DF06400EF3E3D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72DA87FE258DF06400EF3E3D /* AppDelegate.swift */; };
 		72DA8801258DF06400EF3E3D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72DA8800258DF06400EF3E3D /* SceneDelegate.swift */; };
 		72DA8803258DF06400EF3E3D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72DA8802258DF06400EF3E3D /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		61330BE87BD9AED1F2D4B87B /* Pods-PatLock.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PatLock.release.xcconfig"; path = "Target Support Files/Pods-PatLock/Pods-PatLock.release.xcconfig"; sourceTree = "<group>"; };
 		72DA87FB258DF06400EF3E3D /* PatLock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PatLock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		72DA87FE258DF06400EF3E3D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		72DA8800258DF06400EF3E3D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +26,8 @@
 		72DA8807258DF06700EF3E3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		72DA880A258DF06700EF3E3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		72DA880C258DF06700EF3E3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8895789E61896EDA4BBD96C4 /* Pods_PatLock.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PatLock.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D57019F08AC4D5151D0F4324 /* Pods-PatLock.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PatLock.debug.xcconfig"; path = "Target Support Files/Pods-PatLock/Pods-PatLock.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +35,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0DF29F8CB7413FB2266B3299 /* Pods_PatLock.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		33E3872405FA6B947E3CBAF8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D57019F08AC4D5151D0F4324 /* Pods-PatLock.debug.xcconfig */,
+				61330BE87BD9AED1F2D4B87B /* Pods-PatLock.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		72DA87F2258DF06400EF3E3D = {
 			isa = PBXGroup;
 			children = (
 				72DA87FD258DF06400EF3E3D /* PatLock */,
 				72DA87FC258DF06400EF3E3D /* Products */,
+				33E3872405FA6B947E3CBAF8 /* Pods */,
+				C3B41167C6B4A2AA151B4474 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,6 +84,14 @@
 			path = PatLock;
 			sourceTree = "<group>";
 		};
+		C3B41167C6B4A2AA151B4474 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8895789E61896EDA4BBD96C4 /* Pods_PatLock.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +99,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 72DA880F258DF06700EF3E3D /* Build configuration list for PBXNativeTarget "PatLock" */;
 			buildPhases = (
+				FD84320008995B43FA611D2E /* [CP] Check Pods Manifest.lock */,
 				72DA87F7258DF06400EF3E3D /* Sources */,
 				72DA87F8258DF06400EF3E3D /* Frameworks */,
 				72DA87F9258DF06400EF3E3D /* Resources */,
+				579F24F22B7EC12A056951C0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -131,6 +158,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		579F24F22B7EC12A056951C0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PatLock/Pods-PatLock-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PatLock/Pods-PatLock-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PatLock/Pods-PatLock-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD84320008995B43FA611D2E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PatLock-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		72DA87F7258DF06400EF3E3D /* Sources */ = {
@@ -283,6 +352,7 @@
 		};
 		72DA8810258DF06700EF3E3D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D57019F08AC4D5151D0F4324 /* Pods-PatLock.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,6 +372,7 @@
 		};
 		72DA8811258DF06700EF3E3D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61330BE87BD9AED1F2D4B87B /* Pods-PatLock.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

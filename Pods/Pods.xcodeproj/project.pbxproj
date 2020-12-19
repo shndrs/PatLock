@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08149967E06BC8D37FACC51DC8556B70 /* CCGestureLockAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2A0A2EC655D2A83042AF2F8FC04D7E /* CCGestureLockAppearance.swift */; };
+		2F9970FE28C3DE5090DA66387A8873F3 /* CCGestureLock-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 76FFD3D61B82C85AC6F2B94D7845D5E5 /* CCGestureLock-dummy.m */; };
+		5270285D6B02B52D7F1543AADD73C5F7 /* CCGestureLockCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1CB4AF585409F0AE7F09C444F3522E6 /* CCGestureLockCollectionViewCell.swift */; };
+		ADCA211AFAA797D2BB2BA4D8D3C32B0C /* CCGestureLockSensor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49564B9D64903ABC06EE5C0445F196AD /* CCGestureLockSensor.swift */; };
+		B7B0858DB71E42074D0FA927011B6E7F /* Pods-PatLock-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EE252B4716FFF7F1E8BE93CF360398A1 /* Pods-PatLock-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C3B432FCA17FD6ABB747BD2FD967FB94 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		C7420F805DF57B99D4C788E74443E4BD /* VersionBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39220C92D581AD48E175CD981AE92EB9 /* VersionBridge.swift */; };
+		CD05F06859EAE68789D6005338F320E1 /* CCGestureLock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1452EEE821B1662FA0B43C1DDDC61DC2 /* CCGestureLock.swift */; };
+		D4AE12D2D4F4042F91AED6ED585BA866 /* CCGestureLock-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8803727081A31401C17995B68A4A15C2 /* CCGestureLock-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB7376292035BD480D9CB7BDC734EE93 /* Pods-PatLock-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CA0261D89521A3D914F1BA2E2DA5926F /* Pods-PatLock-dummy.m */; };
+		F0867B1BA682C5BC4F6FE4F4400FD62A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		80CFFFE6D0E797277AE4BF57CC4AC525 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0532D55631869FCCFCFC8CF00B2B2B9E;
+			remoteInfo = CCGestureLock;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0C5AE26376CB3145498EA328049EC85B /* CCGestureLock.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CCGestureLock.release.xcconfig; sourceTree = "<group>"; };
+		1452EEE821B1662FA0B43C1DDDC61DC2 /* CCGestureLock.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CCGestureLock.swift; path = CCGestureLock/Classes/CCGestureLock.swift; sourceTree = "<group>"; };
+		1E2A0A2EC655D2A83042AF2F8FC04D7E /* CCGestureLockAppearance.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CCGestureLockAppearance.swift; path = CCGestureLock/Classes/CCGestureLockAppearance.swift; sourceTree = "<group>"; };
+		1E8F44FF428B2D31512E250119FB99DA /* Pods-PatLock-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PatLock-acknowledgements.markdown"; sourceTree = "<group>"; };
+		29EF237A939E3900320E6AFF1CCBA9C3 /* CCGestureLock.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CCGestureLock.modulemap; sourceTree = "<group>"; };
+		39220C92D581AD48E175CD981AE92EB9 /* VersionBridge.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VersionBridge.swift; path = CCGestureLock/Classes/VersionBridge.swift; sourceTree = "<group>"; };
+		3CEA6F1FA6352D2D03D8E85AF8889F03 /* Pods-PatLock.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PatLock.release.xcconfig"; sourceTree = "<group>"; };
+		47AFB09B063F43B8CD4CFBD1D440BEAE /* Pods-PatLock-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PatLock-frameworks.sh"; sourceTree = "<group>"; };
+		49564B9D64903ABC06EE5C0445F196AD /* CCGestureLockSensor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CCGestureLockSensor.swift; path = CCGestureLock/Classes/CCGestureLockSensor.swift; sourceTree = "<group>"; };
+		5FBB84BC600BEF0770528221378E41B2 /* CCGestureLock.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CCGestureLock.framework; path = CCGestureLock.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		711F6CDED67F662360A4C642A94956B9 /* CCGestureLock-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CCGestureLock-Info.plist"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		76FFD3D61B82C85AC6F2B94D7845D5E5 /* CCGestureLock-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CCGestureLock-dummy.m"; sourceTree = "<group>"; };
+		81CC1C82EFB9E1022E212DBB1F45F4B2 /* Pods-PatLock.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PatLock.modulemap"; sourceTree = "<group>"; };
+		8803727081A31401C17995B68A4A15C2 /* CCGestureLock-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CCGestureLock-umbrella.h"; sourceTree = "<group>"; };
+		9BBABC7BB7C1A9F407C90B3DF983E36E /* Pods-PatLock.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PatLock.debug.xcconfig"; sourceTree = "<group>"; };
+		9D6EC064CFFDAC7CE39E7D0F69F5B38D /* Pods_PatLock.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PatLock.framework; path = "Pods-PatLock.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BE52589E5928D59D41562135E2A85445 /* CCGestureLock-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CCGestureLock-prefix.pch"; sourceTree = "<group>"; };
+		CA0261D89521A3D914F1BA2E2DA5926F /* Pods-PatLock-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PatLock-dummy.m"; sourceTree = "<group>"; };
+		DE9DC826C112D9299D416E969CAE66E6 /* CCGestureLock.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CCGestureLock.debug.xcconfig; sourceTree = "<group>"; };
+		E07E0758F664E994AFC8F59AFC87D652 /* Pods-PatLock-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PatLock-acknowledgements.plist"; sourceTree = "<group>"; };
+		E1CB4AF585409F0AE7F09C444F3522E6 /* CCGestureLockCollectionViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CCGestureLockCollectionViewCell.swift; path = CCGestureLock/Classes/CCGestureLockCollectionViewCell.swift; sourceTree = "<group>"; };
+		E96A0BBFB4540909B0527C9A290D74FD /* Pods-PatLock-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PatLock-Info.plist"; sourceTree = "<group>"; };
+		EE252B4716FFF7F1E8BE93CF360398A1 /* Pods-PatLock-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PatLock-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8B5F3FA365BC3FC20B84E974856A00C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0867B1BA682C5BC4F6FE4F4400FD62A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AD53BC42DF767B7A929EFB55622B0DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3B432FCA17FD6ABB747BD2FD967FB94 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5A91E9AA7422A09494E67A6FBB4AE088 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				29EF237A939E3900320E6AFF1CCBA9C3 /* CCGestureLock.modulemap */,
+				76FFD3D61B82C85AC6F2B94D7845D5E5 /* CCGestureLock-dummy.m */,
+				711F6CDED67F662360A4C642A94956B9 /* CCGestureLock-Info.plist */,
+				BE52589E5928D59D41562135E2A85445 /* CCGestureLock-prefix.pch */,
+				8803727081A31401C17995B68A4A15C2 /* CCGestureLock-umbrella.h */,
+				DE9DC826C112D9299D416E969CAE66E6 /* CCGestureLock.debug.xcconfig */,
+				0C5AE26376CB3145498EA328049EC85B /* CCGestureLock.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CCGestureLock";
+			sourceTree = "<group>";
+		};
+		5F6A43C8BC1A5445314459BAB051F840 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B6890ABCD903649E1B778269F5507086 /* CCGestureLock */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8EC57748607627490C5804092B6CD3DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5FBB84BC600BEF0770528221378E41B2 /* CCGestureLock.framework */,
+				9D6EC064CFFDAC7CE39E7D0F69F5B38D /* Pods_PatLock.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9096CFE853496897453556C927AD8D1E /* Pods-PatLock */ = {
+			isa = PBXGroup;
+			children = (
+				81CC1C82EFB9E1022E212DBB1F45F4B2 /* Pods-PatLock.modulemap */,
+				1E8F44FF428B2D31512E250119FB99DA /* Pods-PatLock-acknowledgements.markdown */,
+				E07E0758F664E994AFC8F59AFC87D652 /* Pods-PatLock-acknowledgements.plist */,
+				CA0261D89521A3D914F1BA2E2DA5926F /* Pods-PatLock-dummy.m */,
+				47AFB09B063F43B8CD4CFBD1D440BEAE /* Pods-PatLock-frameworks.sh */,
+				E96A0BBFB4540909B0527C9A290D74FD /* Pods-PatLock-Info.plist */,
+				EE252B4716FFF7F1E8BE93CF360398A1 /* Pods-PatLock-umbrella.h */,
+				9BBABC7BB7C1A9F407C90B3DF983E36E /* Pods-PatLock.debug.xcconfig */,
+				3CEA6F1FA6352D2D03D8E85AF8889F03 /* Pods-PatLock.release.xcconfig */,
+			);
+			name = "Pods-PatLock";
+			path = "Target Support Files/Pods-PatLock";
+			sourceTree = "<group>";
+		};
+		B6890ABCD903649E1B778269F5507086 /* CCGestureLock */ = {
+			isa = PBXGroup;
+			children = (
+				1452EEE821B1662FA0B43C1DDDC61DC2 /* CCGestureLock.swift */,
+				1E2A0A2EC655D2A83042AF2F8FC04D7E /* CCGestureLockAppearance.swift */,
+				E1CB4AF585409F0AE7F09C444F3522E6 /* CCGestureLockCollectionViewCell.swift */,
+				49564B9D64903ABC06EE5C0445F196AD /* CCGestureLockSensor.swift */,
+				39220C92D581AD48E175CD981AE92EB9 /* VersionBridge.swift */,
+				5A91E9AA7422A09494E67A6FBB4AE088 /* Support Files */,
+			);
+			name = CCGestureLock;
+			path = CCGestureLock;
+			sourceTree = "<group>";
+		};
+		C2E676E5343AED805A4C063B663558B1 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9096CFE853496897453556C927AD8D1E /* Pods-PatLock */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				5F6A43C8BC1A5445314459BAB051F840 /* Pods */,
+				8EC57748607627490C5804092B6CD3DB /* Products */,
+				C2E676E5343AED805A4C063B663558B1 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5AA87D8884F6E0EB5CD546A59BECD1F6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4AE12D2D4F4042F91AED6ED585BA866 /* CCGestureLock-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EFDB68196BF308BDA4AE5A96BBB827E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7B0858DB71E42074D0FA927011B6E7F /* Pods-PatLock-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0532D55631869FCCFCFC8CF00B2B2B9E /* CCGestureLock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8FCDC683C40E11259902EE4A8CA7922 /* Build configuration list for PBXNativeTarget "CCGestureLock" */;
+			buildPhases = (
+				5AA87D8884F6E0EB5CD546A59BECD1F6 /* Headers */,
+				AA53C9F764D473E6F0DC2902E655148D /* Sources */,
+				9AD53BC42DF767B7A929EFB55622B0DF /* Frameworks */,
+				BD67E6DD429ADA3919969A143BC98FEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CCGestureLock;
+			productName = CCGestureLock;
+			productReference = 5FBB84BC600BEF0770528221378E41B2 /* CCGestureLock.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C42E3D1B752803857059F37DAB0B99F3 /* Pods-PatLock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0BBD02D38B1DEA3CE88A4148BD24927E /* Build configuration list for PBXNativeTarget "Pods-PatLock" */;
+			buildPhases = (
+				7EFDB68196BF308BDA4AE5A96BBB827E /* Headers */,
+				DC8F93D386E1529A8506F8931488763B /* Sources */,
+				8B5F3FA365BC3FC20B84E974856A00C5 /* Frameworks */,
+				74E6F04CB1D4E90FEEACC9F2D2B5115F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1DE01EFB064E50E296F6F06417F48928 /* PBXTargetDependency */,
+			);
+			name = "Pods-PatLock";
+			productName = "Pods-PatLock";
+			productReference = 9D6EC064CFFDAC7CE39E7D0F69F5B38D /* Pods_PatLock.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 8EC57748607627490C5804092B6CD3DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0532D55631869FCCFCFC8CF00B2B2B9E /* CCGestureLock */,
+				C42E3D1B752803857059F37DAB0B99F3 /* Pods-PatLock */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		74E6F04CB1D4E90FEEACC9F2D2B5115F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD67E6DD429ADA3919969A143BC98FEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA53C9F764D473E6F0DC2902E655148D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F9970FE28C3DE5090DA66387A8873F3 /* CCGestureLock-dummy.m in Sources */,
+				CD05F06859EAE68789D6005338F320E1 /* CCGestureLock.swift in Sources */,
+				08149967E06BC8D37FACC51DC8556B70 /* CCGestureLockAppearance.swift in Sources */,
+				5270285D6B02B52D7F1543AADD73C5F7 /* CCGestureLockCollectionViewCell.swift in Sources */,
+				ADCA211AFAA797D2BB2BA4D8D3C32B0C /* CCGestureLockSensor.swift in Sources */,
+				C7420F805DF57B99D4C788E74443E4BD /* VersionBridge.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC8F93D386E1529A8506F8931488763B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB7376292035BD480D9CB7BDC734EE93 /* Pods-PatLock-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1DE01EFB064E50E296F6F06417F48928 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CCGestureLock;
+			target = 0532D55631869FCCFCFC8CF00B2B2B9E /* CCGestureLock */;
+			targetProxy = 80CFFFE6D0E797277AE4BF57CC4AC525 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5B82FA55F6A12DBC8196D07B0C1EEB40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		65C00E8041313B4383F98B533F0B2ECA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE9DC826C112D9299D416E969CAE66E6 /* CCGestureLock.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CCGestureLock/CCGestureLock-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CCGestureLock/CCGestureLock-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CCGestureLock/CCGestureLock.modulemap";
+				PRODUCT_MODULE_NAME = CCGestureLock;
+				PRODUCT_NAME = CCGestureLock;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6C6178559BD9074C26E073DF5769DB42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		74ACDD2AF24EC92B456A8ECD26374F7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C5AE26376CB3145498EA328049EC85B /* CCGestureLock.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CCGestureLock/CCGestureLock-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CCGestureLock/CCGestureLock-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CCGestureLock/CCGestureLock.modulemap";
+				PRODUCT_MODULE_NAME = CCGestureLock;
+				PRODUCT_NAME = CCGestureLock;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7F2E8CAE132A09408469F5F028C755F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CEA6F1FA6352D2D03D8E85AF8889F03 /* Pods-PatLock.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PatLock/Pods-PatLock-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PatLock/Pods-PatLock.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DA6B70208A5B027572F6103AA2D9E0C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BBABC7BB7C1A9F407C90B3DF983E36E /* Pods-PatLock.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PatLock/Pods-PatLock-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PatLock/Pods-PatLock.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0BBD02D38B1DEA3CE88A4148BD24927E /* Build configuration list for PBXNativeTarget "Pods-PatLock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA6B70208A5B027572F6103AA2D9E0C3 /* Debug */,
+				7F2E8CAE132A09408469F5F028C755F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C6178559BD9074C26E073DF5769DB42 /* Debug */,
+				5B82FA55F6A12DBC8196D07B0C1EEB40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8FCDC683C40E11259902EE4A8CA7922 /* Build configuration list for PBXNativeTarget "CCGestureLock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65C00E8041313B4383F98B533F0B2ECA /* Debug */,
+				74ACDD2AF24EC92B456A8ECD26374F7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module Pods_PatLock {
+  umbrella header "Pods-PatLock-umbrella.h"
+
+  export *
+  module * { export * }
+}

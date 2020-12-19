@@ -24,6 +24,9 @@
 		72DA883C258DFA9300EF3E3D /* PatternSettingsTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 72DA883A258DFA9300EF3E3D /* PatternSettingsTVC.xib */; };
 		72DA8840258DFAE900EF3E3D /* Register.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72DA883F258DFAE900EF3E3D /* Register.swift */; };
 		72DA8843258DFB6200EF3E3D /* Password.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72DA8842258DFB6200EF3E3D /* Password.swift */; };
+		72DA8846258DFBEB00EF3E3D /* ReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72DA8845258DFBEB00EF3E3D /* ReusableView.swift */; };
+		72DA8849258DFC3100EF3E3D /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72DA8848258DFC3100EF3E3D /* UIViewController.swift */; };
+		72DA884C258DFC7200EF3E3D /* StoryboardId.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72DA884B258DFC7200EF3E3D /* StoryboardId.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +49,9 @@
 		72DA883A258DFA9300EF3E3D /* PatternSettingsTVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PatternSettingsTVC.xib; sourceTree = "<group>"; };
 		72DA883F258DFAE900EF3E3D /* Register.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Register.swift; sourceTree = "<group>"; };
 		72DA8842258DFB6200EF3E3D /* Password.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Password.swift; sourceTree = "<group>"; };
+		72DA8845258DFBEB00EF3E3D /* ReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableView.swift; sourceTree = "<group>"; };
+		72DA8848258DFC3100EF3E3D /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
+		72DA884B258DFC7200EF3E3D /* StoryboardId.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardId.swift; sourceTree = "<group>"; };
 		8895789E61896EDA4BBD96C4 /* Pods_PatLock.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PatLock.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D57019F08AC4D5151D0F4324 /* Pods-PatLock.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PatLock.debug.xcconfig"; path = "Target Support Files/Pods-PatLock/Pods-PatLock.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -113,6 +119,8 @@
 				72DA881F258DF25300EF3E3D /* Strings.swift */,
 				72DA8822258DF2B500EF3E3D /* GestureLockSetup.swift */,
 				72DA883F258DFAE900EF3E3D /* Register.swift */,
+				72DA8845258DFBEB00EF3E3D /* ReusableView.swift */,
+				72DA884B258DFC7200EF3E3D /* StoryboardId.swift */,
 			);
 			path = Util;
 			sourceTree = "<group>";
@@ -148,6 +156,7 @@
 			children = (
 				72DA8831258DF83700EF3E3D /* UITableView.swift */,
 				72DA8842258DFB6200EF3E3D /* Password.swift */,
+				72DA8848258DFC3100EF3E3D /* UIViewController.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -288,14 +297,17 @@
 				72DA8823258DF2B500EF3E3D /* GestureLockSetup.swift in Sources */,
 				72DA882E258DF74E00EF3E3D /* PatternSettingsVC.swift in Sources */,
 				72DA8803258DF06400EF3E3D /* ViewController.swift in Sources */,
+				72DA8846258DFBEB00EF3E3D /* ReusableView.swift in Sources */,
 				72DA883B258DFA9300EF3E3D /* PatternSettingsTVC.swift in Sources */,
 				72DA8840258DFAE900EF3E3D /* Register.swift in Sources */,
 				72DA8843258DFB6200EF3E3D /* Password.swift in Sources */,
+				72DA8849258DFC3100EF3E3D /* UIViewController.swift in Sources */,
 				72DA8819258DF21700EF3E3D /* BioAuthenticationHandler.swift in Sources */,
 				72DA8820258DF25300EF3E3D /* Strings.swift in Sources */,
 				72DA8832258DF83700EF3E3D /* UITableView.swift in Sources */,
 				72DA87FF258DF06400EF3E3D /* AppDelegate.swift in Sources */,
 				72DA8801258DF06400EF3E3D /* SceneDelegate.swift in Sources */,
+				72DA884C258DFC7200EF3E3D /* StoryboardId.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

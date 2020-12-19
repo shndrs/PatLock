@@ -10,7 +10,6 @@
 		0DF29F8CB7413FB2266B3299 /* Pods_PatLock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8895789E61896EDA4BBD96C4 /* Pods_PatLock.framework */; };
 		72DA87FF258DF06400EF3E3D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72DA87FE258DF06400EF3E3D /* AppDelegate.swift */; };
 		72DA8801258DF06400EF3E3D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72DA8800258DF06400EF3E3D /* SceneDelegate.swift */; };
-		72DA8803258DF06400EF3E3D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72DA8802258DF06400EF3E3D /* ViewController.swift */; };
 		72DA8806258DF06400EF3E3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72DA8804258DF06400EF3E3D /* Main.storyboard */; };
 		72DA8808258DF06700EF3E3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72DA8807258DF06700EF3E3D /* Assets.xcassets */; };
 		72DA880B258DF06700EF3E3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72DA8809258DF06700EF3E3D /* LaunchScreen.storyboard */; };
@@ -34,7 +33,6 @@
 		72DA87FB258DF06400EF3E3D /* PatLock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PatLock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		72DA87FE258DF06400EF3E3D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		72DA8800258DF06400EF3E3D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		72DA8802258DF06400EF3E3D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		72DA8805258DF06400EF3E3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		72DA8807258DF06700EF3E3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		72DA880A258DF06700EF3E3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -98,14 +96,10 @@
 		72DA87FD258DF06400EF3E3D /* PatLock */ = {
 			isa = PBXGroup;
 			children = (
+				72DA884F258DFE0400EF3E3D /* Resource */,
 				72DA8825258DF70800EF3E3D /* Modules */,
 				72DA8817258DF20900EF3E3D /* Util */,
-				72DA87FE258DF06400EF3E3D /* AppDelegate.swift */,
-				72DA8800258DF06400EF3E3D /* SceneDelegate.swift */,
-				72DA8802258DF06400EF3E3D /* ViewController.swift */,
 				72DA8804258DF06400EF3E3D /* Main.storyboard */,
-				72DA8807258DF06700EF3E3D /* Assets.xcassets */,
-				72DA8809258DF06700EF3E3D /* LaunchScreen.storyboard */,
 				72DA880C258DF06700EF3E3D /* Info.plist */,
 			);
 			path = PatLock;
@@ -128,6 +122,7 @@
 		72DA8825258DF70800EF3E3D /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				72DA8851258DFE6C00EF3E3D /* LaunchScreen */,
 				72DA8826258DF71B00EF3E3D /* PatternSettings */,
 			);
 			path = Modules;
@@ -168,6 +163,24 @@
 				72DA883A258DFA9300EF3E3D /* PatternSettingsTVC.xib */,
 			);
 			path = Cells;
+			sourceTree = "<group>";
+		};
+		72DA884F258DFE0400EF3E3D /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				72DA8807258DF06700EF3E3D /* Assets.xcassets */,
+				72DA87FE258DF06400EF3E3D /* AppDelegate.swift */,
+				72DA8800258DF06400EF3E3D /* SceneDelegate.swift */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		72DA8851258DFE6C00EF3E3D /* LaunchScreen */ = {
+			isa = PBXGroup;
+			children = (
+				72DA8809258DF06700EF3E3D /* LaunchScreen.storyboard */,
+			);
+			path = LaunchScreen;
 			sourceTree = "<group>";
 		};
 		C3B41167C6B4A2AA151B4474 /* Frameworks */ = {
@@ -296,7 +309,6 @@
 			files = (
 				72DA8823258DF2B500EF3E3D /* GestureLockSetup.swift in Sources */,
 				72DA882E258DF74E00EF3E3D /* PatternSettingsVC.swift in Sources */,
-				72DA8803258DF06400EF3E3D /* ViewController.swift in Sources */,
 				72DA8846258DFBEB00EF3E3D /* ReusableView.swift in Sources */,
 				72DA883B258DFA9300EF3E3D /* PatternSettingsTVC.swift in Sources */,
 				72DA8840258DFAE900EF3E3D /* Register.swift in Sources */,

@@ -7,14 +7,19 @@
 
 import UIKit
 
-final class PatternSettingsTVC: UITableViewCell {
+final class PatternSettingsTVC: UITableViewCell, ReusableView {
 
-    override func awakeFromNib() {
-        super.awakeFromNib()
-    }
+    @IBOutlet private weak var iconImage: UIImageView!
+    @IBOutlet private weak var titleLabel: UILabel!
+    
+}
 
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
+// MARK: - Methods
+
+extension PatternSettingsTVC {
+    
+    public func fill(cell by: String) {
+        titleLabel.text = by
     }
     
 }

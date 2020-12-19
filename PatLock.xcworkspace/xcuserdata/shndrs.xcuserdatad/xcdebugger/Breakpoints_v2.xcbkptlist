@@ -3,4 +3,134 @@
    uuid = "16F82387-DB6C-4DC7-9F84-F2056AAE20A1"
    type = "0"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4B38AF02-F438-4C2C-A3FC-1AEE978526E3"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PatLock/Modules/Pattern/View/PatternVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "54"
+            endingLineNumber = "54"
+            landmarkName = "enableButtons(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "4B38AF02-F438-4C2C-A3FC-1AEE978526E3 - ab62cac6690c5c69"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PatLock.PatternVC.(enableButtons in _417F8DD88903539C96476E5F92380558)(Swift.Bool) -&gt; ()"
+                  moduleName = "PatLock"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shndrs/Documents/shndrs&apos;%20Projects/PatLock/PatLock/Modules/Pattern/View/PatternVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "54"
+                  endingLineNumber = "54"
+                  offsetFromSymbolStart = "43">
+               </Location>
+               <Location
+                  uuid = "4B38AF02-F438-4C2C-A3FC-1AEE978526E3 - cedcb799c83a9e32"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.UIButton&gt;) -&gt; () in PatLock.PatternVC.(enableButtons in _417F8DD88903539C96476E5F92380558)(Swift.Bool) -&gt; ()"
+                  moduleName = "PatLock"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shndrs/Documents/shndrs&apos;%20Projects/PatLock/PatLock/Modules/Pattern/View/PatternVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "55"
+                  endingLineNumber = "55"
+                  offsetFromSymbolStart = "80">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3B1A4B84-20CC-4821-9DC3-E7B1973900C8"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PatLock/Modules/Pattern/View/PatternVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "61"
+            endingLineNumber = "61"
+            landmarkName = "setupButtons()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "3B1A4B84-20CC-4821-9DC3-E7B1973900C8 - dc88c9725ca1f316"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PatLock.PatternVC.(setupButtons in _417F8DD88903539C96476E5F92380558)() -&gt; ()"
+                  moduleName = "PatLock"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shndrs/Documents/shndrs&apos;%20Projects/PatLock/PatLock/Modules/Pattern/View/PatternVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "61"
+                  endingLineNumber = "61"
+                  offsetFromSymbolStart = "31">
+               </Location>
+               <Location
+                  uuid = "3B1A4B84-20CC-4821-9DC3-E7B1973900C8 - 3492d483d961e5eb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.UIButton&gt;) -&gt; () in PatLock.PatternVC.(setupButtons in _417F8DD88903539C96476E5F92380558)() -&gt; ()"
+                  moduleName = "PatLock"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shndrs/Documents/shndrs&apos;%20Projects/PatLock/PatLock/Modules/Pattern/View/PatternVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "62"
+                  endingLineNumber = "62"
+                  offsetFromSymbolStart = "85">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E93C1CA9-C0D2-4390-8613-C9F67DDF4FEA"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PatLock/Modules/Pattern/View/PatternVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "74"
+            endingLineNumber = "74"
+            landmarkName = "setupControlPanel()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9A811DE1-E1B9-427C-9B5E-E978D2A2BD27"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PatLock/Modules/Pattern/View/PatternVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "82"
+            endingLineNumber = "82"
+            landmarkName = "buttonTapped(button:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>

@@ -11,6 +11,7 @@ public enum StoryboardId: String {
     
     case main = "Main"
     case patternSettings = "PatternSettings"
+    case patternVC = "PatternVC"
     
 }
 
@@ -24,6 +25,8 @@ extension StoryboardId {
             return StoryboardId.main.rawValue
         case .patternSettings:
             return StoryboardId.patternSettings.rawValue
+        case .patternVC:
+            return StoryboardId.patternVC.rawValue
         }
     }
     

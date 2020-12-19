@@ -47,11 +47,13 @@ extension PatternSettingsVC {
 extension PatternSettingsVC: PatternSettingsView {
     
     func goToSet() {
-        
+        let viewController = PatternVC(nibName: StoryboardId.patternVC.raw(), bundle: nil)
+        self.show(viewController, sender: nil)
     }
     
     func goToReset() {
-        
+        let viewController = PatternVC(nibName: StoryboardId.patternVC.raw(), bundle: nil)
+        self.show(viewController, sender: nil)
     }
     
     func setTableView(with array: [PatternSettings]) {

@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,6 +14,8 @@
 		72DA8806258DF06400EF3E3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72DA8804258DF06400EF3E3D /* Main.storyboard */; };
 		72DA8808258DF06700EF3E3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72DA8807258DF06700EF3E3D /* Assets.xcassets */; };
 		72DA880B258DF06700EF3E3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72DA8809258DF06700EF3E3D /* LaunchScreen.storyboard */; };
+		72DA8819258DF21700EF3E3D /* BioAuthenticationHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72DA8818258DF21700EF3E3D /* BioAuthenticationHandler.swift */; };
+		72DA8820258DF25300EF3E3D /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72DA881F258DF25300EF3E3D /* Strings.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		72DA8807258DF06700EF3E3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		72DA880A258DF06700EF3E3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		72DA880C258DF06700EF3E3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72DA8818258DF21700EF3E3D /* BioAuthenticationHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BioAuthenticationHandler.swift; sourceTree = "<group>"; };
+		72DA881F258DF25300EF3E3D /* Strings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
 		8895789E61896EDA4BBD96C4 /* Pods_PatLock.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PatLock.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D57019F08AC4D5151D0F4324 /* Pods-PatLock.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PatLock.debug.xcconfig"; path = "Target Support Files/Pods-PatLock/Pods-PatLock.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -48,7 +52,6 @@
 				D57019F08AC4D5151D0F4324 /* Pods-PatLock.debug.xcconfig */,
 				61330BE87BD9AED1F2D4B87B /* Pods-PatLock.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -73,6 +76,7 @@
 		72DA87FD258DF06400EF3E3D /* PatLock */ = {
 			isa = PBXGroup;
 			children = (
+				72DA8817258DF20900EF3E3D /* Util */,
 				72DA87FE258DF06400EF3E3D /* AppDelegate.swift */,
 				72DA8800258DF06400EF3E3D /* SceneDelegate.swift */,
 				72DA8802258DF06400EF3E3D /* ViewController.swift */,
@@ -82,6 +86,15 @@
 				72DA880C258DF06700EF3E3D /* Info.plist */,
 			);
 			path = PatLock;
+			sourceTree = "<group>";
+		};
+		72DA8817258DF20900EF3E3D /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				72DA8818258DF21700EF3E3D /* BioAuthenticationHandler.swift */,
+				72DA881F258DF25300EF3E3D /* Strings.swift */,
+			);
+			path = Util;
 			sourceTree = "<group>";
 		};
 		C3B41167C6B4A2AA151B4474 /* Frameworks */ = {
@@ -207,6 +220,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				72DA8803258DF06400EF3E3D /* ViewController.swift in Sources */,
+				72DA8819258DF21700EF3E3D /* BioAuthenticationHandler.swift in Sources */,
+				72DA8820258DF25300EF3E3D /* Strings.swift in Sources */,
 				72DA87FF258DF06400EF3E3D /* AppDelegate.swift in Sources */,
 				72DA8801258DF06400EF3E3D /* SceneDelegate.swift in Sources */,
 			);

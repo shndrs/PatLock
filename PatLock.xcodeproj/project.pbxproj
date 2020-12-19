@@ -16,6 +16,7 @@
 		72DA880B258DF06700EF3E3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72DA8809258DF06700EF3E3D /* LaunchScreen.storyboard */; };
 		72DA8819258DF21700EF3E3D /* BioAuthenticationHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72DA8818258DF21700EF3E3D /* BioAuthenticationHandler.swift */; };
 		72DA8820258DF25300EF3E3D /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72DA881F258DF25300EF3E3D /* Strings.swift */; };
+		72DA8823258DF2B500EF3E3D /* GestureLockSetup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72DA8822258DF2B500EF3E3D /* GestureLockSetup.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		72DA880C258DF06700EF3E3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		72DA8818258DF21700EF3E3D /* BioAuthenticationHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BioAuthenticationHandler.swift; sourceTree = "<group>"; };
 		72DA881F258DF25300EF3E3D /* Strings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
+		72DA8822258DF2B500EF3E3D /* GestureLockSetup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureLockSetup.swift; sourceTree = "<group>"; };
 		8895789E61896EDA4BBD96C4 /* Pods_PatLock.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PatLock.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D57019F08AC4D5151D0F4324 /* Pods-PatLock.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PatLock.debug.xcconfig"; path = "Target Support Files/Pods-PatLock/Pods-PatLock.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -93,6 +95,7 @@
 			children = (
 				72DA8818258DF21700EF3E3D /* BioAuthenticationHandler.swift */,
 				72DA881F258DF25300EF3E3D /* Strings.swift */,
+				72DA8822258DF2B500EF3E3D /* GestureLockSetup.swift */,
 			);
 			path = Util;
 			sourceTree = "<group>";
@@ -219,6 +222,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72DA8823258DF2B500EF3E3D /* GestureLockSetup.swift in Sources */,
 				72DA8803258DF06400EF3E3D /* ViewController.swift in Sources */,
 				72DA8819258DF21700EF3E3D /* BioAuthenticationHandler.swift in Sources */,
 				72DA8820258DF25300EF3E3D /* Strings.swift in Sources */,

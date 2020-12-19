@@ -28,6 +28,8 @@
 		72DA884C258DFC7200EF3E3D /* StoryboardId.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72DA884B258DFC7200EF3E3D /* StoryboardId.swift */; };
 		72DA8855258E009F00EF3E3D /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72DA8854258E009F00EF3E3D /* BaseViewController.swift */; };
 		72DA8859258E00D300EF3E3D /* TableBasedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72DA8858258E00D300EF3E3D /* TableBasedViewController.swift */; };
+		72DA885D258E02D100EF3E3D /* PatternSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72DA885C258E02D100EF3E3D /* PatternSettings.swift */; };
+		72DA8860258E033000EF3E3D /* Typealias.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72DA885F258E033000EF3E3D /* Typealias.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +56,8 @@
 		72DA884B258DFC7200EF3E3D /* StoryboardId.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardId.swift; sourceTree = "<group>"; };
 		72DA8854258E009F00EF3E3D /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		72DA8858258E00D300EF3E3D /* TableBasedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableBasedViewController.swift; sourceTree = "<group>"; };
+		72DA885C258E02D100EF3E3D /* PatternSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatternSettings.swift; sourceTree = "<group>"; };
+		72DA885F258E033000EF3E3D /* Typealias.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Typealias.swift; sourceTree = "<group>"; };
 		8895789E61896EDA4BBD96C4 /* Pods_PatLock.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PatLock.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D57019F08AC4D5151D0F4324 /* Pods-PatLock.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PatLock.debug.xcconfig"; path = "Target Support Files/Pods-PatLock/Pods-PatLock.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -119,6 +123,7 @@
 				72DA883F258DFAE900EF3E3D /* Register.swift */,
 				72DA8845258DFBEB00EF3E3D /* ReusableView.swift */,
 				72DA884B258DFC7200EF3E3D /* StoryboardId.swift */,
+				72DA885F258E033000EF3E3D /* Typealias.swift */,
 			);
 			path = Util;
 			sourceTree = "<group>";
@@ -136,6 +141,7 @@
 		72DA8826258DF71B00EF3E3D /* PatternSettings */ = {
 			isa = PBXGroup;
 			children = (
+				72DA885B258E02BA00EF3E3D /* Model */,
 				72DA8827258DF73100EF3E3D /* View */,
 			);
 			path = PatternSettings;
@@ -195,6 +201,14 @@
 				72DA8858258E00D300EF3E3D /* TableBasedViewController.swift */,
 			);
 			path = Base;
+			sourceTree = "<group>";
+		};
+		72DA885B258E02BA00EF3E3D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				72DA885C258E02D100EF3E3D /* PatternSettings.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		C3B41167C6B4A2AA151B4474 /* Frameworks */ = {
@@ -334,8 +348,10 @@
 				72DA8820258DF25300EF3E3D /* Strings.swift in Sources */,
 				72DA8832258DF83700EF3E3D /* UITableView.swift in Sources */,
 				72DA87FF258DF06400EF3E3D /* AppDelegate.swift in Sources */,
+				72DA8860258E033000EF3E3D /* Typealias.swift in Sources */,
 				72DA8801258DF06400EF3E3D /* SceneDelegate.swift in Sources */,
 				72DA884C258DFC7200EF3E3D /* StoryboardId.swift in Sources */,
+				72DA885D258E02D100EF3E3D /* PatternSettings.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

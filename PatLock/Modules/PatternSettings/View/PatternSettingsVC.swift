@@ -7,12 +7,25 @@
 
 import UIKit
 
-final class PatternSettingsVC: UIViewController {
+final class PatternSettingsVC: TableBasedViewController {
     
-    @IBOutlet private weak var tableView: UITableView! {
-        didSet {
-            tableView.cleanFooterView()
-        }
+    
+    
+}
+
+// MARK: - Methods
+
+extension PatternSettingsVC {
+    
+    fileprivate func searchSetup() {
+        let searchController = UISearchController(searchResultsController: nil)
+        navigationItem.searchController = searchController
+    }
+    
+    override func tableSetup() {
+        tableView.delegate = self
+        tableView.dataSource = self
+//        register(reuseIds: RIDs.categoryVC)
     }
     
 }
@@ -23,6 +36,20 @@ extension PatternSettingsVC {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+    }
+    
+}
+
+// MARK: - TableView Implementation
+
+extension PatternSettingsVC: UITableViewDelegate, UITableViewDataSource {
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return 0
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        return UITableViewCell()
     }
     
 }

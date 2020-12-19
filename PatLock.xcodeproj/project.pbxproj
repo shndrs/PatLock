@@ -26,6 +26,8 @@
 		72DA8846258DFBEB00EF3E3D /* ReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72DA8845258DFBEB00EF3E3D /* ReusableView.swift */; };
 		72DA8849258DFC3100EF3E3D /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72DA8848258DFC3100EF3E3D /* UIViewController.swift */; };
 		72DA884C258DFC7200EF3E3D /* StoryboardId.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72DA884B258DFC7200EF3E3D /* StoryboardId.swift */; };
+		72DA8855258E009F00EF3E3D /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72DA8854258E009F00EF3E3D /* BaseViewController.swift */; };
+		72DA8859258E00D300EF3E3D /* TableBasedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72DA8858258E00D300EF3E3D /* TableBasedViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +52,8 @@
 		72DA8845258DFBEB00EF3E3D /* ReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableView.swift; sourceTree = "<group>"; };
 		72DA8848258DFC3100EF3E3D /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
 		72DA884B258DFC7200EF3E3D /* StoryboardId.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardId.swift; sourceTree = "<group>"; };
+		72DA8854258E009F00EF3E3D /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		72DA8858258E00D300EF3E3D /* TableBasedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableBasedViewController.swift; sourceTree = "<group>"; };
 		8895789E61896EDA4BBD96C4 /* Pods_PatLock.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PatLock.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D57019F08AC4D5151D0F4324 /* Pods-PatLock.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PatLock.debug.xcconfig"; path = "Target Support Files/Pods-PatLock/Pods-PatLock.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -122,6 +126,7 @@
 		72DA8825258DF70800EF3E3D /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				72DA8853258E009500EF3E3D /* Base */,
 				72DA8851258DFE6C00EF3E3D /* LaunchScreen */,
 				72DA8826258DF71B00EF3E3D /* PatternSettings */,
 			);
@@ -181,6 +186,15 @@
 				72DA8809258DF06700EF3E3D /* LaunchScreen.storyboard */,
 			);
 			path = LaunchScreen;
+			sourceTree = "<group>";
+		};
+		72DA8853258E009500EF3E3D /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				72DA8854258E009F00EF3E3D /* BaseViewController.swift */,
+				72DA8858258E00D300EF3E3D /* TableBasedViewController.swift */,
+			);
+			path = Base;
 			sourceTree = "<group>";
 		};
 		C3B41167C6B4A2AA151B4474 /* Frameworks */ = {
@@ -308,10 +322,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				72DA8823258DF2B500EF3E3D /* GestureLockSetup.swift in Sources */,
+				72DA8859258E00D300EF3E3D /* TableBasedViewController.swift in Sources */,
 				72DA882E258DF74E00EF3E3D /* PatternSettingsVC.swift in Sources */,
 				72DA8846258DFBEB00EF3E3D /* ReusableView.swift in Sources */,
 				72DA883B258DFA9300EF3E3D /* PatternSettingsTVC.swift in Sources */,
 				72DA8840258DFAE900EF3E3D /* Register.swift in Sources */,
+				72DA8855258E009F00EF3E3D /* BaseViewController.swift in Sources */,
 				72DA8843258DFB6200EF3E3D /* Password.swift in Sources */,
 				72DA8849258DFC3100EF3E3D /* UIViewController.swift in Sources */,
 				72DA8819258DF21700EF3E3D /* BioAuthenticationHandler.swift in Sources */,

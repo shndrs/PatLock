@@ -32,7 +32,7 @@
                     </view>
                     <navigationItem key="navigationItem" title="Settings" id="SpS-aX-XVf"/>
                     <connections>
-                        <outlet property="tableView" destination="0s3-AB-Yez" id="azO-P6-SM0"/>
+                        <outlet property="tableView" destination="0s3-AB-Yez" id="QY6-yf-c1R"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CVE-0a-v9T" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

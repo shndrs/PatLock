@@ -12,7 +12,6 @@ final class PatternSettingsVC: TableBasedViewController {
     private lazy var presenter: PatternSettingsPresenter = {
         return PatternSettingsPresenter(view: self)
     }()
-    
     private lazy var items: [PatternSettings] = {
         return [PatternSettings]()
     }()
@@ -75,6 +74,10 @@ extension PatternSettingsVC: UITableViewDelegate, UITableViewDataSource {
             .dequeueReusableCell(withIdentifier: PatternSettingsTVC.reuseIdentifier) as? PatternSettingsTVC
         cell?.fill(cell: items[indexPath.row].title)
         return cell ?? UITableViewCell()
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        items[indexPath.row].action()
     }
     
 }

@@ -31,6 +31,8 @@
 		72DA885D258E02D100EF3E3D /* PatternSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72DA885C258E02D100EF3E3D /* PatternSettings.swift */; };
 		72DA8860258E033000EF3E3D /* Typealias.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72DA885F258E033000EF3E3D /* Typealias.swift */; };
 		72DA8865258E097E00EF3E3D /* PatternSettingsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72DA8864258E097E00EF3E3D /* PatternSettingsPresenter.swift */; };
+		72DA886A258E103300EF3E3D /* PatternVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72DA8869258E103300EF3E3D /* PatternVC.swift */; };
+		72DA886D258E107400EF3E3D /* PatternVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 72DA886C258E107400EF3E3D /* PatternVC.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -60,6 +62,8 @@
 		72DA885C258E02D100EF3E3D /* PatternSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatternSettings.swift; sourceTree = "<group>"; };
 		72DA885F258E033000EF3E3D /* Typealias.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Typealias.swift; sourceTree = "<group>"; };
 		72DA8864258E097E00EF3E3D /* PatternSettingsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatternSettingsPresenter.swift; sourceTree = "<group>"; };
+		72DA8869258E103300EF3E3D /* PatternVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatternVC.swift; sourceTree = "<group>"; };
+		72DA886C258E107400EF3E3D /* PatternVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PatternVC.xib; sourceTree = "<group>"; };
 		8895789E61896EDA4BBD96C4 /* Pods_PatLock.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PatLock.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D57019F08AC4D5151D0F4324 /* Pods-PatLock.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PatLock.debug.xcconfig"; path = "Target Support Files/Pods-PatLock/Pods-PatLock.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -136,6 +140,7 @@
 				72DA8853258E009500EF3E3D /* Base */,
 				72DA8851258DFE6C00EF3E3D /* LaunchScreen */,
 				72DA8826258DF71B00EF3E3D /* PatternSettings */,
+				72DA8867258E101A00EF3E3D /* Pattern */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -222,6 +227,23 @@
 			path = Presenter;
 			sourceTree = "<group>";
 		};
+		72DA8867258E101A00EF3E3D /* Pattern */ = {
+			isa = PBXGroup;
+			children = (
+				72DA8868258E102900EF3E3D /* View */,
+			);
+			path = Pattern;
+			sourceTree = "<group>";
+		};
+		72DA8868258E102900EF3E3D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				72DA8869258E103300EF3E3D /* PatternVC.swift */,
+				72DA886C258E107400EF3E3D /* PatternVC.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		C3B41167C6B4A2AA151B4474 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -292,6 +314,7 @@
 				72DA8836258DF92500EF3E3D /* PatternSettings.storyboard in Resources */,
 				72DA880B258DF06700EF3E3D /* LaunchScreen.storyboard in Resources */,
 				72DA8808258DF06700EF3E3D /* Assets.xcassets in Resources */,
+				72DA886D258E107400EF3E3D /* PatternVC.xib in Resources */,
 				72DA883C258DFA9300EF3E3D /* PatternSettingsTVC.xib in Resources */,
 				72DA8806258DF06400EF3E3D /* Main.storyboard in Resources */,
 			);
@@ -361,6 +384,7 @@
 				72DA87FF258DF06400EF3E3D /* AppDelegate.swift in Sources */,
 				72DA8860258E033000EF3E3D /* Typealias.swift in Sources */,
 				72DA8865258E097E00EF3E3D /* PatternSettingsPresenter.swift in Sources */,
+				72DA886A258E103300EF3E3D /* PatternVC.swift in Sources */,
 				72DA8801258DF06400EF3E3D /* SceneDelegate.swift in Sources */,
 				72DA884C258DFC7200EF3E3D /* StoryboardId.swift in Sources */,
 				72DA885D258E02D100EF3E3D /* PatternSettings.swift in Sources */,

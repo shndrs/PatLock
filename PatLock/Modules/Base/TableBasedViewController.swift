@@ -11,7 +11,9 @@ class TableBasedViewController: UIViewController {
     
     var largeTitle: Bool = false {
         willSet(newVal) {
-            navigationController?.navigationBar.prefersLargeTitles = newVal
+            if #available(iOS 11.0, *) {
+                navigationController?.navigationBar.prefersLargeTitles = newVal
+            }
         }
     }
     
